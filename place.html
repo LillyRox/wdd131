@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mexico Page</title>
+
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+
+<header>
+  <h1>Mexico</h1>
+</header>
+
+<main>
+
+  <div class="hero">
+    <picture>
+      <source srcset="images/hero-small.webp" media="(max-width: 600px)">
+      <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+      <img src="images/hero-large.webp" alt="Mexico landscape">
+    </picture>
+
+    <section class="about">
+      <h2>About</h2>
+      <p>Mexico is a vibrant country rich in culture, food, and history.</p>
+    </section>
+
+    <section class="weather">
+      <h2 id="weather-title">Weather</h2>
+      <p>Temperature: <span id="temp">8</span> °C</p>
+      <p>Wind Speed: <span id="wind">10</span> km/h</p>
+      <p>Wind Chill: <span id="windChill"></span></p>
+    </section>
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> | Lilly Armenta | Mexico</p>
+  <p>Last Modified: <span id="lastModified"></span></p>
+</footer>
+
+</body>
+</html>
