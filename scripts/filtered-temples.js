@@ -25,7 +25,7 @@ const temples = [
     location: "Sonora, Mexico",
     dedicated: "2020, May, 2",
     area: 6861,
-    imageUrl: "images/hermisollo-mexico.jpeg"
+    imageUrl: "images/hermosillo-mexico.jpeg"
   },
   {
     templeName: "Mérida Mexico",
