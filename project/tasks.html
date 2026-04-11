@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FocusFlow helps you quickly add, manage, and remove daily tasks with a clean and minimal interface. All data is stored locally in your browser.">
+    <meta name="author" content="Lilly Armenta">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; img-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; connect-src 'self'; upgrade-insecure-requests">
+    
+    <title>FocusFlow - My Tasks</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap">
+
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">FocusFlow</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tasks.html" class="active">My Tasks</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="tasks-container">
+        <div class="tasks-header">
+            <h1>Stay Focused</h1>
+            <p>Quickly capture and manage your daily tasks.</p>
+        </div>
+
+        <form id="task-form" autocomplete="off" class="task-form">
+            <input 
+                type="text" 
+                id="task-input" 
+                placeholder="Add a new task..." 
+                required
+            >
+            <button type="submit" id="add-task">Add</button>
+        </form>
+
+        <ul id="task-list" class="task-list"></ul>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 FocusFlow | Lilly Armenta | BYU-Idaho</p>
+</footer>
+
+<script src="scripts/tasks.js" defer></script>
+
+</body>
+</html>

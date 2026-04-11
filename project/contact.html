@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with FocusFlow for feedback, questions, or suggestions about the task tracking app.">
+    <meta name="author" content="Lilly Armenta">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; img-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; connect-src 'self'; upgrade-insecure-requests">
+    
+    <title>Contact - FocusFlow</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap">
+
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">FocusFlow</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tasks.html">My Tasks</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="contact-container">
+        <h1>Contact</h1>
+        <p>Have feedback or ideas to improve FocusFlow? Send a message below.</p>
+
+        <div class="profile-container">
+            <img
+                src="images/lilly.png"
+                alt="Portrait of Lilly Armenta, developer of FocusFlow."
+                loading="lazy"
+                width="150"
+                height="150"
+                class="profile-img"
+            >
+        </div>
+
+        <form action="#" method="get" class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 FocusFlow | Lilly Armenta | BYU-Idaho</p>
+</footer>
+
+</body>
+</html>
